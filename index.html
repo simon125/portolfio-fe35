@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <style>
+      .bg-light {
+        background-color: #1a2232;
+      }
+
+      main > article {
+        margin-top: 35vh;
+      }
+
+      * {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <h1>Portfolio FE Dev</h1>
+      <nav>
+        <ul>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section style="margin-top: 8vh; min-height: 35vh" id="intro">
+        <h2>John Doe</h2>
+        <p>Front-end dev</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla,
+          iusto.
+        </p>
+      </section>
+      <article id="projects">
+        <h2>Projects</h2>
+        <article class="bg-light">
+          <h3>Counter</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+            commodi.
+          </p>
+          <img src="./demoApp.png" alt="" width="400" />
+          <p><b>Technologies:</b> React, CSS</p>
+          <a href="#">Live preview</a>
+          <a href="#">Repository</a>
+        </article>
+        <article class="bg-light">test</article>
+        <article class="bg-light">test</article>
+      </article>
+      <article id="technologies">
+        <h2>Technologies</h2>
+        <ul>
+          <li>React <img src="./reacticon.png" alt="" /></li>
+          <li>JS</li>
+          <li>CSS3</li>
+          <li>HTML5</li>
+        </ul>
+      </article>
+      <article id="contact">
+        <h2>Contact with me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+          aspernatur eius cupiditate architecto dolor error?
+        </p>
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Title" />
+        <textarea placeholder="Email content" rows="10"></textarea>
+        <button style="width: 100%">Send</button>
+      </article>
+    </main>
+  </body>
+</html>
